@@ -21,6 +21,8 @@ int main()
 	printf("\nDigite o segundo numero: ");
 	scanf("%f", &n2);
 	fflush(stdin);
+
+	
 	switch (op)
 	{
 	case '+':

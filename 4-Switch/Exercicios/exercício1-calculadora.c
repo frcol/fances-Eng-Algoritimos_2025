@@ -31,7 +31,7 @@ int main()
 			printf("\nNao existe divisao por zero\n\n");
 		break;
 	case '^':
-		printf("\nResultado: %.2f\n\n", pow(n1, n2));
+		printf("\nResultado: %.2f\n\n", pow(n1, n2)); // math.h
 		break;
 	default:
 		printf("\nOperador Invalido\n\n");
