@@ -3,6 +3,8 @@
 
 int main()
 {
+  system("cls");
+  
   float n1, n2;
 
   do
