@@ -8,6 +8,19 @@ de cada um dos números.
 int main() {
     system("cls");
 
+    int i, numeros[15];
+
+    printf("Digite 15 numeros inteiros:\n");
+    for (i = 0; i < 15; i++) {
+        printf("Numero %d: ", i + 1);
+        scanf("%d", &numeros[i]);
+    }
+    
+    printf("\nO dobro dos numeros digitados:\n");
+
+    for (i = 0; i < 15; i++) {
+        printf("%d ", numeros[i]*2);
+    }
 
 
     printf("\n\n");

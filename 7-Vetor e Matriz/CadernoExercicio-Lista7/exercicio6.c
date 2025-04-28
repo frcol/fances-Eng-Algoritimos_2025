@@ -8,7 +8,7 @@ quantidade de números negativos informados.
 int main() {
     system("cls");
 
-
+    
 
     printf("\n\n");
     return 0;
