@@ -5,6 +5,8 @@
 
 int main()
 {
+  system("cls");
+  
   char letra, frase[80];
   int i, tam, cont = 0;
 
@@ -23,7 +25,8 @@ int main()
       cont++;
     }
   }
-      printf("\nA letra %c ocorre %i vezes na frase\n\n", letra, cont);
+      
+  printf("\nA letra %c ocorre %i vezes na frase\n\n", letra, cont);
 
   return 0;
 }

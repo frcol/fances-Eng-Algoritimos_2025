@@ -22,6 +22,7 @@ int main()
     if (senha1[i] == senha2[i])
     {
       cont++;
+      
       if (i < 3)
         cont1++;
     }

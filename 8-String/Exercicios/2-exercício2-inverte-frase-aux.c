@@ -9,7 +9,7 @@ int main()
 {
 	system("cls");
 
-	char frase[80], aux;
+	char frase[7], aux;
 	int i, tam;
 
 	printf("\nDigite a frase: ");
