@@ -22,15 +22,15 @@ int main() {
     }
 
     // Solicita a linha escolhida pelo usuário
-    printf("Escolha uma linha (1 a 3) para calcular a média: ");
-    scanf("%d", &linhaEscolhida);
-    linhaEscolhida--; // Ajusta para índice de matriz (0 a 2)
+    do {
+        printf("Escolha uma linha (1 a 3) para calcular a media: ");
+        scanf("%d", &linhaEscolhida);
+        linhaEscolhida--; // Ajusta para índice de matriz (0 a 2)
 
-    // Verifica se a linha escolhida é válida
-    if (linhaEscolhida < 0 || linhaEscolhida >= 3) {
-        printf("Linha inválida! Por favor, escolha entre 1 e 3.\n");
-        return 1;
-    }
+        if (linhaEscolhida < 0 || linhaEscolhida >= 3) {
+            printf("Linha invalida! Por favor, escolha entre 1 e 3.\n");
+        }
+    } while (linhaEscolhida < 0 || linhaEscolhida >= 3);
 
     // Cálculo da média dos elementos da linha escolhida
     for (j = 0; j < 4; j++) {
@@ -40,7 +40,7 @@ int main() {
     media /= 4; // Divide pela quantidade de elementos na linha
 
     // Exibe a média
-    printf("A média dos elementos da linha %d é: %.2f\n", linhaEscolhida + 1, media);
+    printf("A media dos elementos da linha %d e: %.2f\n", linhaEscolhida + 1, media);
 
     // Exibe a matriz para referência
     printf("\nMatriz 3x4:\n");

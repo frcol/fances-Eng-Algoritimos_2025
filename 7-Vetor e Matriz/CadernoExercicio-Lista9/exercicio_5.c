@@ -4,10 +4,9 @@
 /*
 5. Faça um programa que recebe uma matriz 4x4 e realiza as seguintes
 operações:
- Exibir a soma dos elementos da diagonal principal.
- Colocar os elementos da diagonal principal em um vetor (uma
-dimensão).
- Exibir o vetor.
+- Exibir a soma dos elementos da diagonal principal.
+- Colocar os elementos da diagonal principal em um vetor (uma dimensão).
+- Exibir o vetor.
 */
 int main() {
     system("cls");
@@ -37,7 +36,7 @@ int main() {
         }
         printf("\n");
     }
-    
+
     printf("\nSoma dos elementos da diagonal principal: %d\n", somaDiagonal);
     printf("Vetor com os elementos da diagonal principal:\n");  
     for (i = 0; i < 4; i++) {

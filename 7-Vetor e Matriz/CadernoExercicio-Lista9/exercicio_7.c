@@ -20,6 +20,7 @@ int main() {
         for (j = 0; j < 5; j++) {
             printf("Elemento [%d][%d]: ", i, j);
             scanf("%d", &matriz[i][j]);
+            
             // Substitui elementos negativos por 0
             if (matriz[i][j] < 0) {
                 matrizModificada[i][j] = 0;
@@ -39,7 +40,7 @@ int main() {
     }
 
     // Exibe a matriz modificada
-    printf("\nMatriz modificada (negativos substituídos por 0):\n");
+    printf("\nMatriz modificada (negativos substituidos por 0):\n");
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 5; j++) {
             printf("%d ", matrizModificada[i][j]);
