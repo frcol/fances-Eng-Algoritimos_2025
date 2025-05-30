@@ -9,7 +9,7 @@ int main() {
     system("cls");
  
     int matriz[3][4];
-    int i, j, soma = 0;
+    int i, j, soma;
 
     printf("Digite os elementos da matriz 3x4:\n");
     for (i = 0; i < 3; i++) {
@@ -17,7 +17,7 @@ int main() {
             printf("Elemento [%d][%d]: ", i, j);
             scanf("%d", &matriz[i][j]);
             
-            soma += matriz[i][j];
+            soma = soma + matriz[i][j];
         }
     }
 

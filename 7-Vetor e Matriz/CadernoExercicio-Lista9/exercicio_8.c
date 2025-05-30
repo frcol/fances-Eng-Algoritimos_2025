@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /*
-8. Define-se como elemento minimax de uma matriz o menor elemento da
-linha onde se encontra o maior elemento da matriz. 
+8. Define-se como elemento minimax de uma matriz o menor elemento da linha onde se encontra o maior elemento da matriz. 
 Faça um programa que recebe uma matriz 4x4 e mostra qual é seu elemento minimax, bem como sua posição na matriz.
 */
 int main() {

@@ -31,7 +31,7 @@ int main() {
     printf("\nMatriz com o dobro dos valores:\n");
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 3; j++) {
-            printf("%d ", matrizDobro[i][j]);
+            printf("\t%d", matrizDobro[i][j]);
         }
         printf("\n");
     }
