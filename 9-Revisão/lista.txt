@@ -1,0 +1,39 @@
+1- Elabore  um  programa  que  recebe  um  caractere  e  um  número  inteiro  n menor  ou  igual  a  20.  
+Declare  e  inicialize  uma  string  com  n  caracteres iguais ao caractere digitado.  
+Exemplo: 
+    Caracter: a 
+    Número (n): 3 
+    Saída: aaa 
+
+2- Implemente  um  programa  que  calcule  aumento  de  salário  no  ano corrente.  Se o  salário  for  de até  R$  1000.00  deve  ser  calculado o  novo salário  com  aumento  de  5%,  para  um  salário  maior  que  R$  1000.00  o aumento é de 7%.
+
+3- Escreva um programa para receber o saldo inicial de uma conta bancária 
+de um cliente. A seguir ler um número indeterminado de pares de valores 
+indicando  respectivamente  o  tipo  da  operação,  sendo:  1.Depósito 
+2.Retirada 3.Fim e também o valor. Quando  for informado  para o  tipo o 
+código  3,  o  programa  deve  ser  encerrado  e  impresso  o  saldo  final  da 
+conta  com  as  seguintes  mensagens:  CONTA  ZERADA,  CONTA 
+ESTOURADA (se o saldo for negativo) ou CONTA PREFERENCIAL (se o 
+saldo for positivo
+
+4- Crie um programa que copie para um vetor os elementos de outro em ordem crescente.
+vetor de tamanho 10, com valores inteiros. O vetor deve ser preenchido.
+
+5- Preencher automaticamente um vetor com todos os números pares entre 1 
+e 100 e depois exibir os números para o usuário. 
+
+6- Para 30 alunos da turma de Algoritmos e Programação, receber a média
+de teoria e a média de laboratório, calcular a média final (final = teoria *
+0.6 + laboratório * 0.4) e informar se cada um foi bem (final >= 7), razoável
+(5 <= final < 7) ou mal (final < 5).
+
+7- Desenvolver um programa que recebe a quantidade de alunos que estão
+cursando o 3o semestre. Para cada aluno receber a quantidade de
+disciplinas que cursou no 2o semestre e também a nota final relativa a
+cada disciplina. Calcular e mostrar a média de cada aluno para verificar o
+aproveitamento do último semestre cursado.
+usando vetor ou matriz
+
+8- Uma empresa contrata um encanador a R$ 35.00 por dia. 
+Crie um programa que solicite o número de dias trabalhados pelo encanador e mostre o valor líquido a ser pago, sabendo que são descontados 8% de imposto de renda.
+
