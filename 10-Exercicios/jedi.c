@@ -63,38 +63,38 @@ int main()
 
     sjedi[i] = '\0';
 
-    // nome composto
-    // tam = strlen(sjedi);
+    nome composto
+    tam = strlen(sjedi);
 
-    // for (i = 0; i < 3; i++)
-    //     cjedi[i] = njedi[i];
-
-    // cjedi[i] = '-';
-    // i++;
-
-    // for (j = tam - 3; j < tam; j++, i++)
-    //     if (j == tam - 3)
-    //         cjedi[i] = toupper(sjedi[j]);
-    //     else
-    //         cjedi[i] = sjedi[j];
-
-    // cjedi[i] = '\0';
-
-
-    // Nome Composto modo 2
     for (i = 0; i < 3; i++)
-        cjedi[i] = nome[i];
+        cjedi[i] = njedi[i];
 
     cjedi[i] = '-';
     i++;
 
-    for (j = 0; j < 3; j++, i++)
-        if (j == 0)
-            cjedi[i] = toupper(cidade[j]);
+    for (j = tam - 3; j < tam; j++, i++)
+        if (j == tam - 3)
+            cjedi[i] = toupper(sjedi[j]);
         else
-            cjedi[i] = tolower(cidade[j]);
-    
+            cjedi[i] = sjedi[j];
+
     cjedi[i] = '\0';
+
+
+    // Nome Composto - modo 2 (apelando :)
+    // for (i = 0; i < 3; i++)
+    //     cjedi[i] = nome[i];
+
+    // cjedi[i] = '-';
+    // i++;
+
+    // for (j = 0; j < 3; j++, i++)
+    //     if (j == 0)
+    //         cjedi[i] = toupper(cidade[j]);
+    //     else
+    //         cjedi[i] = tolower(cidade[j]);
+    
+    // cjedi[i] = '\0';
 
     // Exibe os resultados
     printf("\nNome Jedi: %s %s", njedi, sjedi);
