@@ -63,7 +63,7 @@ int main()
 
     sjedi[i] = '\0';
 
-    nome composto
+    //nome composto
     tam = strlen(sjedi);
 
     for (i = 0; i < 3; i++)
