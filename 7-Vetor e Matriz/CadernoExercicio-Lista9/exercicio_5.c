@@ -17,12 +17,9 @@ int main() {
     printf("Digite os valores da matriz 4x4:\n");
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 4; j++) {
-            printf("Elemento [%d][%d]: ", i, j);
-            scanf("%d", &matriz[i][j]);
-
-            if (i == j) { 
+             if (i == j) { 
                 vetorDiagonal[i] = matriz[i][j];
-                somaDiagonal += matriz[i][j]; // Soma os elementos da diagonal principal
+                somaDiagonal += matriz[i][j];
             }
         }
     }

@@ -22,10 +22,10 @@ int main() {
     do {
         printf("Digite um numero inteiro menor ou igual a 20: ");
         scanf("%d", &n);
-        if (n > 20) {
+        if (n > 20 || n < 1) {
             printf("Valor invalido! Tente novamente.\n");
         }
-    } while (n > 20);
+    } while (n > 20 || n < 1);
 
     char string[n + 1]; // +1 para o caractere nulo 
 
